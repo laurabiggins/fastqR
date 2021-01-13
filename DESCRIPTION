@@ -8,8 +8,7 @@ Authors@R:
            email = "laura.biggins@babraham.ac.uk",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package works with fastq files.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -18,3 +17,8 @@ Imports:
     tibble,
     assertthat,
     stringr
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
