@@ -1,0 +1,33 @@
+---
+title: "fastqR_usage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fastqR_usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#devtools::load_all()
+#library(fastqR)
+```
+
+# Import fastq file
+```{r}
+#fq_data <- read_fastq(system.file("good.fq", package = "fastqR"))
+#fq_data
+```
+
+Add a column of GC content to the tibble
+```{r}
+#fq_data <- dplyr::mutate(fq_data, GC_content = gc_content(seq))
+#fq_data
+```
+
